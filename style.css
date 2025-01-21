@@ -81,6 +81,10 @@ body {
     position: relative;
     
 }
+.navbar__s4{
+    display: none;
+}
+
 
 .categories{
     display: flex;
@@ -158,7 +162,9 @@ body {
     
 }
 .recommended__card {
-    width: 300px;
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 5px;
 }
 .recommended__card img{
     width: 100%;
@@ -195,7 +201,9 @@ body {
 
 }
 .popular__card{
-    width: 250px;
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 5px;
 
 }
 .popular__card img{
@@ -223,4 +231,32 @@ body {
 }
 .footer-one p{
     margin: 20px;
+}
+@media screen and (max-width:600px) {
+    .recommended__card {
+        flex-basis: 40%;
+
+    }
+    .popular__card {
+        flex-basis: 40%;
+
+    }
+
+    .navbar__s2,
+    .navbar__s3 {
+        display: none;
+    }
+    .navbar__s4{
+        display: block;
+    }
+    
+
+
+}
+
+@media screen and (max-width:800px) {
+    body {
+        font-size: 10px;
+    }
+   
 }
