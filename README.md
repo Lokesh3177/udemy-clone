@@ -1,5 +1,5 @@
 # udemy-clone
-Here’s a simple and clear **GitHub README** description for your project:  
+
 
 ---
 
@@ -21,9 +21,7 @@ To view the project locally, simply clone this repository and open the `index.ht
 
 ```bash
 git clone https://github.com/Lokesh3177/udemy-clone.git
-cd your-repository
-open index.html
-```
+
 
 ## **Live Demo**
 You can also view the live version of the project here:  
